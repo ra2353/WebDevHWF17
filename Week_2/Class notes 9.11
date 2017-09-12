@@ -1,0 +1,10 @@
+Title tag is for the header
+Body tag is the content 
+Italic text <em> tag 
+Bold text <strong> tag 
+<h1> </h1> ---> <h6> Heading size large to small
+<a href="website">Google it! </a>"
+attribute named href
+href value tells your link where to go once it is clicked by a user 
+<img src="imagesource.jpg" / >
+Remember to nest 
