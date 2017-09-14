@@ -1,0 +1,6 @@
+Site map first 
+div is block element 
+It wants to take up the entire width of the page/containing element
+
+Block level elements do not want to hare horizontal space 
+
