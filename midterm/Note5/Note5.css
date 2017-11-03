@@ -1,0 +1,346 @@
+	body {
+
+		display: grid;
+		grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 105%;
+	}
+
+li {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: .5%;
+    display: inline-block;
+}
+
+
+	#headerbox {
+		grid-column: 1/9;
+		height: 102%;
+		background-color:#303030;
+		margin-left: -2.25%;
+		margin-top: -2.25%;
+		margin-right: -.52%;
+		line-height: 200%;
+		border-bottom-style: solid;
+		border-width: 3px;
+	}
+		 #Logo {
+		width: 3.95%;
+		padding-left: 2.25%;
+		padding-top: 1.8%;
+		padding-bottom: 2%;
+		float: left;
+	}
+		
+		#mainnav {
+			color: white;
+    		text-align: center;
+    		text-decoration: none;
+    		font-size: 130%;
+			margin-top: 5.8%;
+			font-family: 'Play',sans-serif;
+
+	}
+		#nav {
+			margin-left: 28.85%;
+		}
+	.Logotext {
+		padding-top: 1.45%;
+	}
+body {
+	background-color: white
+}
+
+#Phonebackleft {
+	z-index: -1;
+	margin-top:-20%;
+	padding-right: 400%;
+	padding-bottom: 450%;
+	margin-left: -7%;
+	height: 844%;
+
+	background-image: url(note5front.png);
+}
+
+	#Main {
+		background-color:white;
+		position: absolute;
+		left: 12%;
+		right: 12%;
+		border-width: .75%;
+		margin-top: 45%;
+		box-shadow: 3px 10px 56px 0px rgba(0,0,0,0.65);
+		font-family: Helvetica;
+	}
+	#Phonebackright {
+		z-index: -2;
+		margin-top:-20%;
+		padding-right: 502%;
+		padding-bottom: 450%;
+		margin-left: 202%;
+		height: 844%;
+		background-image: url(note5backs.png);
+	}
+
+	#iphonefrontcontainer {
+		height: 47.5%;
+		margin-left: -20%;
+		padding-right: -10%;
+		margin-top: 15%;
+	}
+
+	#iphonebackcontainer {
+		height: 47.5%;
+		width: 107%;
+		margin-left: 160%;
+		padding-right: -10%;
+		margin-top: 15%;
+	}	
+	#iphonefrontcontainer img {
+		width: 149%;
+	}
+	#iphonebackcontainer img {
+		width: 137.5%;
+	}
+	.Heading {
+		margin-left: 2%;
+	}
+	#Camspecp {
+		margin-right: 55%;
+		margin-left: 5%;
+	}
+	table {
+    border-collapse: collapse;
+    width: 75%;
+
+}
+
+div.a6snote51 { 
+    background: white;
+    display: block;
+    margin-bottom: 2.5%;
+    text-align: left;
+    margin-left: 10%;
+    width: 900px;
+    height: 550px; 
+    overflow: hidden;
+    position: relative; 
+}
+div.before1{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .35s ease; 
+    z-index: 100;
+}
+ div.after1{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .1s ease-in-out; 
+    z-index: 100;
+}
+ 
+div.after1{
+    z-index: 1; 
+}
+ 
+div.a6snote51:hover div.before1{ 
+    width: 0;
+}
+div.a6snote52{ 
+    background: white;
+    display: block;
+    margin-bottom: 2.5%;
+    text-align: left;
+    margin-left: 10%;
+    width: 900px;
+    height: 550px; 
+    overflow: hidden;
+    position: relative; 
+}
+div.before2,div.after2{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .35s ease; 
+    z-index: 100;
+}
+
+ 
+div.after2{
+    z-index: 1; 
+}
+ 
+div.a6snote52:hover div.before2{ 
+    width: 0;
+}
+
+div.a6snote53{ 
+    background: white;
+    display: block;
+    margin-bottom: 2.5%;
+    text-align: left;
+    margin-left: 10%;
+    width: 900px;
+    height: 500px; 
+    overflow: hidden;
+    position: relative; 
+}
+div.before3{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .35s ease; 
+    z-index: 100;
+}
+ div.after3{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .1s ease-in-out; 
+    z-index: 100;
+}
+ 
+div.after3{
+    z-index: 1; 
+}
+ 
+div.a6snote53:hover div.before3{ 
+    width: 0;
+}
+
+div.a6snote54{ 
+    background: white;
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    width: 900px;
+    height: 500px; 
+    overflow: hidden;
+    position: relative; 
+}
+div.before4{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .35s ease; 
+    z-index: 100;
+}
+ div.after4{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .1s ease-in-out; 
+    z-index: 100;
+}
+ 
+div.after4{
+    z-index: 1; 
+}
+ 
+div.a6snote54:hover div.before4{ 
+    width: 0;
+}
+
+th, td {
+	font-weight: normal;
+    text-align: left;
+    color: white;
+    padding: 8px;
+}
+
+#camspecstablediv {
+	float: right;
+	margin-top: -37.5%;
+	margin-left: 55%;
+
+}
+
+
+#camspecstable {background-color: #5c5c5c;}
+
+#camspecstable tr:hover {
+	background-color: #545454;}
+
+#lefth {
+    background-color: #E99533;
+    color: white;
+}
+#camtext {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 15px;
+}
+
+#Alldesigns {
+text-align: center;
+}
+#alldesignstalk {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2.5%;
+}
+#batterytalk {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.batterypic {
+	padding-left: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+.Performance {
+	text-align: center;
+}
+#Performance {
+	text-align: center;
+	margin-top: 3%;
+}
+.Performancetext {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	margin-top: 3%;
+}
+#Conclusion {
+	margin: 2.5%;
+	text-align: center;
+}
+#camtext {
+	text-align: center;
+	padding-top: 2.5%;
+}
+
+h2 {
+		font-family: 'PT Sans Narrow', sans-serif;
+}
+div {
+	line-height: 140%;
+}

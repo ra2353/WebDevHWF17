@@ -1,0 +1,309 @@
+	body {
+
+		display: grid;
+		grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 105%;
+	}
+
+li {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: .5%;
+    display: inline-block;
+}
+
+
+	#headerbox {
+		grid-column: 1/9;
+		height: 102%;
+		background-color:#303030;
+		margin-left: -2.25%;
+		margin-top: -2.25%;
+		margin-right: -.52%;
+		line-height: 200%;
+		border-bottom-style: solid;
+		border-width: 3px;
+	}
+		 #Logo {
+		width: 3.95%;
+		padding-left: 2.25%;
+		padding-top: 1.8%;
+		padding-bottom: 2%;
+		float: left;
+	}
+		
+		#mainnav {
+			color: white;
+    		text-align: center;
+    		text-decoration: none;
+    		font-size: 130%;
+			margin-top: 5.8%;
+			font-family: 'Play',sans-serif;
+
+	}
+		#nav {
+			margin-left: 28.85%;
+		}
+	.Logotext {
+		padding-top: 1.45%;
+	}
+body {
+	background-color: white
+}
+
+#Phonebackleft {
+	z-index: -1;
+	margin-top:-20%;
+	padding-right: 400%;
+	padding-bottom: 450%;
+	margin-left: -7%;
+	height: 1186%;
+	background-image: url(g4backleft.png);
+}
+
+	#Main {
+		background-color:white;
+		position: absolute;
+		left: 12%;
+		right: 12%;
+		border-width: .75%;
+		margin-top: 45%;
+		box-shadow: 3px 10px 56px 0px rgba(0,0,0,0.65);
+		font-family: Helvetica;
+	}
+	#Phonebackright {
+		z-index: -2;
+		border-style: solid;
+		margin-top:-20%;
+		padding-right: 499.5%;
+		padding-bottom: 450%;
+		margin-left: 202%;
+		height:1185.5%;
+		background-image: url(g4backright.png);
+	}
+
+	#iphonefrontcontainer {
+		height: 50%;
+		margin-left: -20%;
+		padding-right: -10%;
+		margin-top: 15%;
+		width: 130%;
+		
+	}
+
+	#iphonebackcontainer {
+		height: 47.5%;
+		width: 115%;
+		margin-left: 163%;
+		padding-right: -10%;
+		margin-top: 15%;
+	}	
+	#iphonefrontcontainer img {
+		width: 110%;
+	}
+	#iphonebackcontainer img {
+		width: 125%;
+	}
+	.Heading {
+		margin-left: 2%;
+	}
+	#Camspecp {
+		line-height: 140%;
+		margin-right: 55%;
+		margin-left: 5%;
+	}
+	table {
+    border-collapse: collapse;
+    width: 75%;
+
+}
+
+th, td {
+	font-weight: normal;
+    text-align: left;
+    color: white;
+    padding: 8px;
+}
+
+#camspecstablediv {
+	float: right;
+	margin-top: -32.5%;
+	margin-left: 55%;
+	grid-column: 3/4;
+}
+h3 {
+	font-size:110%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-left: 5%;
+}
+#Detail {
+	margin-left:5%;
+	text-align: left;
+	padding-right: 30%;
+}
+#Macro {
+	margin-left:5%;
+	text-align: left;
+	padding-right: 30%;
+}
+#Crop {
+	margin-left:5%;
+	text-align: left;
+	padding-right: 30%;
+}
+#camspecstable {background-color: #5c5c5c;}
+
+#camspecstable tr:hover {
+	background-color: #545454;}
+
+.indoorlight {
+	text-align: center;
+	padding-left: 1%;
+}
+.nightshot {
+	margin-top: 2.5%;
+	text-align: center;
+}
+
+.before {
+	display: inline-block;
+	padding-top: 1%;
+	padding-left: 9%;
+	text-align: left;
+
+}
+.after {
+	display: inline-block;
+	padding-left: 7%;
+}
+
+.macro {
+	display: inline-block;
+	padding-top: 1%;
+	padding-left: 9%;
+	text-align: left;
+
+}
+.macro1 {
+	display: inline-block;
+	text-align: left;
+}
+
+.macro2 {
+	display: inline-block;
+	padding-left: 7%;
+}
+.sports {
+	display: inline-block;
+	padding-left: 8%;
+	padding-top: 1%;
+}
+.sports1 {
+	display: inline-block;
+	padding-left: 7%;
+}
+
+
+
+#lefth {
+    background-color: #2ED882;
+    color: black;
+}
+#indoortext {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 25px;
+	text-align: center;
+}
+#nighttext {
+
+	padding-right: 85px;
+	padding-top: 25px;
+	text-align: center;
+}
+#detailtext {
+
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 3%;
+	padding-left: 1%;
+	text-align: center;
+}
+#macrotext {
+
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 3%;
+	padding-left: 1%;
+	text-align: center;
+}
+#sportstext {
+
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 3%;
+	padding-left: 1%;
+	text-align: center;
+}
+#Alldesigns {
+text-align: center;
+
+}
+#alldesignstalk {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 15px;
+	text-align: center;
+}
+#batterytalk {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 15px;
+}
+
+.batterypic {
+	padding-left: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+#Conclusion {
+ 		text-align: center;
+ 		padding-top: .5%;
+ 		margin-left: 3%;
+ 		margin-right: 3%;
+ 		padding-bottom: 2%;
+}
+
+#nighttext {
+	padding-left: 10%;
+}
+#manualpics {
+	text-align: center;
+}
+#manualpic1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#manualuitext {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding-top: 3%;
+	padding-left: 1%;
+	text-align: center;
+}
+.Performance {
+	text-align: center;
+}
+
+h2 {
+		font-family: 'PT Sans Narrow', sans-serif;
+}
+.Performancetext {
+	text-align: center;
+	padding: 5% 5%;
+}
+div {
+	line-height: 140%;
+}

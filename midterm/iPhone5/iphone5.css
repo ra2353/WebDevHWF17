@@ -1,0 +1,248 @@
+	body {
+
+		display: grid;
+		grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+		font-family: 'Rubik', sans-serif;
+		font-size: 105%;
+	}
+
+li {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: .5%;
+    display: inline-block;
+}
+
+
+	#headerbox {
+		grid-column: 1/9;
+		height: 102%;
+		background-color:#303030;
+		margin-left: -2.25%;
+		margin-top: -2.25%;
+		margin-right: -.52%;
+		line-height: 200%;
+		border-bottom-style: solid;
+		border-width: 3px;
+	}
+		 #Logo {
+		width: 3.95%;
+		padding-left: 2.25%;
+		padding-top: 1.8%;
+		padding-bottom: 2%;
+		float: left;
+	}
+		
+		#mainnav {
+			color: white;
+    		text-align: center;
+    		text-decoration: none;
+    		font-size: 130%;
+			margin-top: 5.8%;
+			font-family: 'Play',sans-serif;
+
+	}
+		#nav {
+			margin-left: 28.85%;
+		}
+	.Logotext {
+		padding-top: 1.15%;
+		}
+body {
+	background-color: white
+}
+
+#Phonebackleft {
+	z-index: -1;
+	margin-top:-20%;
+	padding-right: 400%;
+	padding-bottom: 450%;
+	margin-left: -7%;
+	height: 955.5%;
+	background-image: url(leftback.png);
+}
+
+	#Main {
+		background-color:white;
+		position: absolute;
+		left: 12%;
+		right: 12%;
+		border-width: .75%;
+		margin-top: 45%;
+		box-shadow: 3px 10px 56px 0px rgba(0,0,0,0.65);
+		font-family: Helvetica;
+	}
+	#Phonebackright {
+		z-index: -2;
+		border-style: solid;
+		margin-top:-20%;
+		padding-right: 499.5%;
+		padding-bottom: 450%;
+		margin-left: 202%;
+		height: 955%;
+		background-image: url(rightback.png);
+	}
+
+	#iphonefrontcontainer {
+		height: 47.5%;
+		margin-left: -20%;
+		padding-right: -10%;
+		margin-top: 15%;
+		transform: rota;
+	}
+
+	#iphonebackcontainer {
+		height: 47.5%;
+		width: 107%;
+		margin-left: 173%;
+		padding-right: -10%;
+		margin-top: 15%;
+	}	
+	#iphonefrontcontainer img {
+		width: 110%;
+	}
+	#iphonebackcontainer img {
+		width: 125%;
+	}
+	.Heading {
+		margin-left: 2%;
+	}
+	#Camspecp {
+		margin-right: 55%;
+		margin-left: 5%;
+	}
+	table {
+    border-collapse: collapse;
+    width: 75%;
+
+}
+
+th, td {
+	font-weight: normal;
+    text-align: left;
+    color: white;
+    padding: 8px;
+}
+
+#camspecstablediv {
+	float: right;
+	margin-top: -27.5%;
+	margin-left: 55%;
+
+}
+
+
+#camspecstable {background-color: #5c5c5c;}
+
+#camspecstable tr:hover {
+	background-color: #545454;}
+
+#lefth {
+    background-color: #5670D1;
+    color: white;
+}
+	
+
+div.nightshot2g,div.nightshot3g,div.nightshot3gs,div.nightshot4,div.nightshot4s,div.nightshot5s,div.nightshot6,div.nightshot7,div.nightshot8{ 
+    margin-bottom: 2%;
+    background: white;
+    border: 1px solid gray;
+    display: block;
+    margin-left: 50px;
+    width: 1000px; 
+    height: 500px; 
+    text-align: center;
+    overflow: hidden;
+    position: relative; 
+}
+div.before1, div.before2,div.before3,div.before4,div.before5,div.before6,div.before7,div.after,div.after1,div.after2,div.after3,div.after4{ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .5s ease-in-out; 
+    z-index: 100;
+}
+ 
+div.after,div.after2,div.after3,div.after4{
+    z-index: 1; 
+}
+ 
+div.nightshot2g:hover div.before1{ 
+    width: 0; 
+}
+
+div.nightshot3g:hover div.before2{ 
+    width: 0; 
+}
+ 
+div.nightshot3gs:hover div.before3{ 
+    width: 0; 
+}
+
+div.nightshot4:hover div.before4{ 
+    width: 0; 
+}
+
+div.nightshot4s:hover div.before5{ 
+    width: 0; 
+}
+
+div.nightshot5s:hover div.before6{ 
+    width: 0; 
+}
+
+div.nightshot6:hover div.before6{ 
+    width: 0; 
+}
+
+div.nightshot7:hover div.before6{ 
+    width: 0; 
+}
+
+div.nightshot8:hover div.before7{ 
+    width: 0; 
+}
+
+p {
+ 	line-height: 140%;
+    margin-top: -10px;
+}
+
+#camtext {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 25px;
+}
+
+#Alldesigns {
+text-align: center;
+}
+#alldesignstalk {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 25px;
+}
+#batterytalk {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 15px;
+}
+
+.batterypic {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#Conclusion {
+	padding-left:70px;
+	padding-right: 70px;
+	padding-top: 5px;
+	margin-bottom: 13px;
+	margin-top: 5px;
+}
+h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
