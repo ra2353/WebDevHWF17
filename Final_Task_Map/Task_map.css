@@ -1,0 +1,98 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.item{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline-block;
+  border-style: solid;
+  position: absolute;
+  border: 1.5px solid black;
+  border-radius: 5%;
+  box-shadow: 1px 1px 1px grey;
+  background-color: #1F3A50;
+  color: white;
+   cursor: pointer; 
+}
+div[name="items"] {
+  background-color: #543E43;
+}
+
+#item0,#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10 {
+  left: 45%;
+  top:5%;
+
+} 
+
+#Mainbox{
+  background-color: #0D171F
+}
+
+#Mainbox {
+  left:47%;
+  top:47%;
+  width: 80px;
+  border: 1px solid black;
+  text-align: center;
+  border: 1.5px solid black;
+}
+
+#maintext{
+  display: inline-block;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+  font-size:350%;
+  margin-top: -6.5%;
+  font-family: 'Magra', sans-serif;
+  font-weight: bold;
+}
+
+#mainclass1{
+  left: 38%;
+  top:38%;
+}
+
+#mainclass2{
+  left: 38%;
+  top:60%;
+}
+#mainclass3{
+  left: 46.9%;
+  top:30%;
+}
+#mainclass4{
+  left: 57%;
+  top:38%;
+}
+#mainclass5{
+  left: 56.25%;
+  top:60%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.taskbutton{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline-block;
+  position: absolute;
+  border-style: solid 2px black;
+  box-shadow: 1px 1px 1px grey;
+  left: 55%;
+  top:5%;
+  background-color: #35543A;
+  color: white;
+  cursor: pointer;
+}
+
+.taskbutton {
+  z-index: -1;
+}

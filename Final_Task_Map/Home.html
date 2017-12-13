@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Task Map</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Task_map.css">
+	<style type="text/css">
+		.btn-primary {
+			margin-left: 2%;
+			background-color: #1F3A50
+		}
+		
+		.btn-primary:hover{
+			background-color: #1F3A50
+		}
+
+	.glyphicon-pencil{
+		color: white;
+
+	}
+	.btn-default {
+		background-color: #35543A
+	}
+	.btn-default:hover{
+		background-color: #057F5F
+	}
+	.btn-basic{
+		background-color: white;
+	}
+	</style>
+</head>
+
+<body>	
+<br>
+<button class="ideacreate btn btn-primary"> <span><img src="ideaicon.png">&nbsp&nbsp&nbsp </span>Note</button>
+<br>
+<br>
+<button class="taskcreate btn btn-primary"><span class="glyphicon glyphicon-pencil"></span>  &nbsp&nbsp Task </button>
+
+  <div id="getText" style="display: none;"> </div>	
+
+
+
+
+<div id="diagramContainer">
+
+	<div id="Mainbox" class="item">
+		<p>School</p>
+	</div>
+		
+		<div id="mainclass1"  class="item"> 
+			<p>Python</p></div>
+	<div id="mainclass2"  class="item"> 
+			<p>Ideation</p></div>
+	<div id="mainclass3"  class="item"> 
+			<p>Web Dev</p></div>
+	<div id="mainclass4"   class="item"> 
+			<p>Game</p></div>
+	<div id="mainclass5"  class="item"> 
+			<p>Photo</p></div>
+
+	
+</div>
+
+
+<div class="item" id="item0" name="items"></div>
+<div class="item" id="item1"  name="items"></div>
+<div class="item" id="item2"  name="items"></div>
+<div class="item" id="item3"  name="items"></div>
+<div class="item" id="item4"  name="items"></div>
+<div class="item" id="item5"  name="items"></div>
+<div class="item" id="item6"  name="items"></div>
+<div class="item" id="item7"  name="items"></div>
+<div class="item" id="item8"  name="items"></div>
+<div class="item" id="item9"  name="items"></div>
+<div class="item" id="item10"  name="items"></div>
+
+
+
+<div  id="button0" class="taskbutton">
+	<button type="button0" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+	<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+
+</div>
+<div  id="button1" class="taskbutton">
+	<button type="button1" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button2" class="taskbutton">
+	<button type="button2" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button3" class="taskbutton">
+	<button type="button3" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button4" class="taskbutton">
+	<button type="button4" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button5" class="taskbutton">
+	<button type="button5" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button6" class="taskbutton">
+	<button type="button6" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button7" class="taskbutton">
+	<button type="button7" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button8" class="taskbutton">
+	<button type="button8" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button9" class="taskbutton">
+	<button type="button9" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+</div>
+<div  id="button10" class="taskbutton">
+	<button type="button10" class="btn btn-default">
+		<span class='glyphicon glyphicon-pencil'></span>
+	</button>
+
+
+</div>
+<div id ="maintext">
+	TASK <br>MAP&nbsp
+</div>
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h3 class="modal-title">Details</h3>
+        </div>
+        <div class="modal-body" contenteditable="true">
+          <p></p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-basic" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jsplumb.min.js"></script>
+<script src="Task_map.js"></script>	
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+</body>
+</html>
